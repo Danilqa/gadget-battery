@@ -8,7 +8,9 @@ Magic Battery and AirBuddy cover Apple and Bluetooth gear. Logitech G HUB, Logit
 
 ## Try it
 
-You need a Mac with macOS 14 or later and Xcode 26.
+[**Download Gadget Battery**](https://github.com/Danilqa/gadget-battery/releases/latest/download/Gadget-Battery.dmg), open it and drag the app to Applications. It needs macOS 14 or later and is notarized by Apple.
+
+To build it yourself with Xcode 26:
 
 ```sh
 git clone https://github.com/Danilqa/gadget-battery && cd gadget-battery
@@ -39,7 +41,7 @@ macOS asks for **Input Monitoring** before any app can read Logitech Bluetooth d
 - `Widget/`: the widget
 - `Packages/BatteryKit`: device protocols and readers. Test them with `cd Packages/BatteryKit && swift test`.
 
-The README picture comes from `"build/Build/Products/Debug/Gadget Battery.app/Contents/MacOS/Gadget Battery" -demo YES -snapshotPanel "$PWD/docs/menu.png"`. The app icon comes from `swift scripts/render-icon.swift App/Assets.xcassets/AppIcon.appiconset`.
+The README picture comes from `"build/Build/Products/Debug/Gadget Battery.app/Contents/MacOS/Gadget Battery" -demo YES -snapshotPanel "$PWD/docs/menu.png"`. The app icon comes from `swift scripts/render-icon.swift App/Assets.xcassets/AppIcon.appiconset`. `scripts/make-dmg.sh` builds the notarized DMG for a release; Xcode has to be signed in to the team.
 
 ## License
 
