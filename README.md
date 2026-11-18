@@ -43,4 +43,4 @@ The README picture comes from `"build/Build/Products/Debug/Gadget Battery.app/Co
 
 ## License
 
-[PolyForm Noncommercial 1.0.0](LICENSE.md). You can read, change and share the code for noncommercial use. Keep the `Required Notice:` line and the license with any copy or project that uses it. Selling Gadget Battery or anything built from its code is not allowed. For commercial use, ask [Daniil Sitdikov](https://github.com/Danilqa).
+Copyright © 2026 Daniil Sitdikov. Gadget Battery is free software under the [GNU General Public License v3.0](LICENSE). You can use, change and share it, even commercially. If you ship anything built from this code, you have to publish its full source under the GPL too and keep this copyright notice.
