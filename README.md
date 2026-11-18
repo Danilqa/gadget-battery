@@ -40,3 +40,7 @@ macOS asks for **Input Monitoring** before any app can read Logitech Bluetooth d
 - `Packages/BatteryKit`: device protocols and readers. Test them with `cd Packages/BatteryKit && swift test`.
 
 The README picture comes from `"build/Build/Products/Debug/Gadget Battery.app/Contents/MacOS/Gadget Battery" -demo YES -snapshotPanel "$PWD/docs/menu.png"`. The app icon comes from `swift scripts/render-icon.swift App/Assets.xcassets/AppIcon.appiconset`.
+
+## License
+
+[PolyForm Noncommercial 1.0.0](LICENSE.md). You can read, change and share the code for noncommercial use. Keep the `Required Notice:` line and the license with any copy or project that uses it. Selling Gadget Battery or anything built from its code is not allowed. For commercial use, ask [Daniil Sitdikov](https://github.com/Danilqa).
