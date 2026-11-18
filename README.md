@@ -40,5 +40,3 @@ macOS asks for **Input Monitoring** before any app can read Logitech Bluetooth d
 - `App/`: the menu bar app
 - `Widget/`: the widget
 - `Packages/BatteryKit`: device protocols and readers. Test them with `cd Packages/BatteryKit && swift test`.
-
-The README picture comes from `"build/Build/Products/Debug/Gadget Battery.app/Contents/MacOS/Gadget Battery" -demo YES -snapshotPanel "$PWD/docs/menu.png"`. The app icon comes from `swift scripts/render-icon.swift App/Assets.xcassets/AppIcon.appiconset`. `scripts/make-dmg.sh` builds the notarized DMG for a release; Xcode has to be signed in to the team.
